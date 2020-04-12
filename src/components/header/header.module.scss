@@ -1,4 +1,26 @@
+@import '../../assets/styles/typography.scss';
+
 .container {
-  padding: 20px;
-  background-color: yellow;
-};
+	padding: 20px 0px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-family: $font;
+	font-size: 20px;
+}
+
+.nav {
+	display: flex;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+.navLink {
+	margin-left: 50px;
+	font-size: 14px;
+	color: #333333;
+}

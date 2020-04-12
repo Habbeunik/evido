@@ -1,0 +1,26 @@
+@import '../../assets/styles/color.scss';
+
+.form {
+  width: 100%;
+}
+
+.header {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.link {
+  text-decoration: underline;
+  font-size: 14px;
+  color: $primaryLight;
+}
+
+.underlineBottom {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 30px;
+}

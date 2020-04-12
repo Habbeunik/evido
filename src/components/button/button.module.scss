@@ -1,0 +1,12 @@
+@import '../../assets/styles/color.scss';
+@import '../../assets/styles/typography.scss';
+
+.button {
+  font-family: $font !important;
+  padding: 15px 25px !important;
+  border-radius: 0px !important;
+  width: 100%;
+  text-align: center;
+  font-weight: normal !important;
+  background-color: $primary !important;
+}

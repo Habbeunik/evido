@@ -1,0 +1,24 @@
+@import '../../assets/styles/typography.scss';
+
+.wrapper {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.input {
+  margin-top: 5px;
+  width: 100%;
+
+  input {
+    padding: 12px !important;
+    border-radius: 0px !important;
+    font-family: $font !important;
+    
+    &::placeholder {
+      font-family: $font;
+    }
+  }
+}
